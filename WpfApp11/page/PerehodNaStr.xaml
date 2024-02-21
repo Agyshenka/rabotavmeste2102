@@ -14,8 +14,8 @@
             <RowDefinition Height="60*"></RowDefinition>
             <RowDefinition Height="60*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Button Height="50" Width="100" Content="Дегтярёв" Grid.Row="0"></Button>
-        <Button Height="50" Width="100" Content="Лисицын" Grid.Row="1"/>
-        <Button Height="50" Width="100" Content="Махнач" Grid.Row="2"/>
+        <Button Height="50" Width="100" Content="Дегтярёв" Grid.Row="0" Click="Button_Click"></Button>
+        <Button Height="50" Width="100" Content="Лисицын" Grid.Row="1" Click="Button_Click_1"/>
+        <Button Height="50" Width="100" Content="Махнач" Grid.Row="2" Click="Button_Click_2"/>
     </Grid>
 </Page>

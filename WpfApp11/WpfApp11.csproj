@@ -67,6 +67,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="page\DegtyarevPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="page\LisitsynPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="page\MakhnachPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -78,6 +86,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="manager.cs" />
+    <Compile Include="page\DegtyarevPage.xaml.cs">
+      <DependentUpon>DegtyarevPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="page\LisitsynPage.xaml.cs">
+      <DependentUpon>LisitsynPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="page\MakhnachPage.xaml.cs">
       <DependentUpon>MakhnachPage.xaml</DependentUpon>
     </Compile>

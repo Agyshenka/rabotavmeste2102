@@ -24,5 +24,20 @@ namespace WpfApp11.page
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            manager.MainFrame.Navigate(new DegtyarevPage());
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            manager.MainFrame.Navigate(new LisitsynPage());
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            manager.MainFrame.Navigate(new MakhnachPage());
+        }
     }
 }
