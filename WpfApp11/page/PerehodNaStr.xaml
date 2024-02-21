@@ -1,0 +1,21 @@
+﻿<Page x:Class="WpfApp11.page.PerehodNaStr"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp11.page"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PerehodNaStr">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60*"></RowDefinition>
+            <RowDefinition Height="60*"></RowDefinition>
+            <RowDefinition Height="60*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Height="50" Width="100" Content="Дегтярёв" Grid.Row="0"></Button>
+        <Button Height="50" Width="100" Content="Лисицын" Grid.Row="1"/>
+        <Button Height="50" Width="100" Content="Махнач" Grid.Row="2"/>
+    </Grid>
+</Page>
